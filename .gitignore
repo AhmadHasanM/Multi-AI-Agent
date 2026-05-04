@@ -1,0 +1,29 @@
+cat > ~/Documents/Multi\ LLM/.gitignore << 'EOF'
+# Environment & API Keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Output laporan (hasil generate)
+output/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+EOF
