@@ -1,29 +1,41 @@
-cat > ~/Documents/Multi\ LLM/.gitignore << 'EOF'
-# Environment & API Keys
+# Environment & API Keys 
 .env
+.env.*
+*.env
 
-# Python
+# Python 
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyw
 .Python
+*.egg-info/
+dist/
+build/
 
-# Virtual Environment
+# Virtual Environment 
 venv/
 env/
 ENV/
+.venv/
 
-# Output laporan (hasil generate)
+# Output laporan (hasil generate) 
 output/
 
-# VS Code
+# VS Code 
 .vscode/
+*.code-workspace
 
-# OS
+# OS 
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Logs
+# Logs 
 *.log
-EOF
+logs/
+
+# Testing 
+/tmp/
+test_langfuse.py
