@@ -1,3 +1,4 @@
+import os
 from langfuse import Langfuse
 from config.settings import LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST
 
